@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  border: 1px solid grey;
+  width: 60%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px;
+  text-align: left;
+}
+
+.step-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.step {
+  font-size: 14px;
+  border: 3px solid grey;
+  padding: 8px 12px;
+  border-radius: 140px;
+}
+
+.active-step {
+  font-weight: bolder;
+  border-color: rgb(250, 52, 85);
+}
+
+.divider-line {
+  width: 30px;
+  height: 1px;
+  background-color: grey;
+  margin: 0px 2px;
+}
+
+.text {
+}
